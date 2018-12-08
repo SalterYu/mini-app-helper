@@ -1,0 +1,28 @@
+{
+  "name": "mini-app-helper",
+  "version": "1.0.5",
+  "description": "自动创建小程序目录, 配合jgb构建工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "thmp": "./index.js"
+  },
+  "keywords": [
+    "node",
+    "commander",
+    "mini-app",
+    "小程序"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:SalterYu/mini-app-helper.git"
+  },
+  "author": "salteryu",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0"
+  }
+}
