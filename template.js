@@ -21,17 +21,16 @@ import {fly} from "@modules/index";
 const app = getApp();
 interface ComponentHome extends JComponent {
 }
-class ComponentHome {
-  properties = {
-  }
-  data = {
-  }
+JComponent(class ComponentHome {
+  properties: {
+  },
+  data: {
+  },
   attached () {}
-  methods = {
+  methods: {
   
   }
-}
-JComponent(new ComponentHome());
+});
 `,
   'wxss': '',
   'wxml': '',
