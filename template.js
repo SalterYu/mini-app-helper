@@ -27,7 +27,9 @@ class ComponentHome {
   data = {
   }
   attached () {}
+  methods = {
   
+  }
 }
 JComponent(new ComponentHome());
 `,
