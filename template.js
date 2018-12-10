@@ -11,7 +11,7 @@ class PageHome {
 JPage(new PageHome());
 `,
   'json': `{
-    "navigationBarTitleText": "管理联系人"
+    "navigationBarTitleText": ""
 }`
 }
 
@@ -19,9 +19,7 @@ const componentFileContentMaps = {
   'ts': `import {JComponent} from 'jgb-weapp';
 import {fly} from "@modules/index";
 const app = getApp();
-interface ComponentHome extends JComponent {
-}
-JComponent(class ComponentHome {
+JComponent({
   properties: {
   },
   data: {
