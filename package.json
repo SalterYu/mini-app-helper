@@ -1,6 +1,6 @@
 {
   "name": "mini-app-helper",
-  "version": "1.0.8",
+  "version": "0.0.2",
   "description": "自动创建小程序目录, 配合jgb构建工具",
   "main": "index.js",
   "scripts": {

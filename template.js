@@ -7,6 +7,8 @@ class PageHome {
   };
   onLoad() {
   }
+  onShow(){
+  }
 }
 JPage(new PageHome());
 `,
@@ -24,7 +26,7 @@ JComponent({
   },
   data: {
   },
-  attached () {}
+  attached () {},
   methods: {
   
   }
